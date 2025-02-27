@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url(Assets/leaves-background.png);
+    background-image: url('leaves-background.png');
     background-position: center;
     margin: 0;
     padding: 20px;
@@ -21,7 +21,7 @@ h2, h3 {
 
 .card {
     background-color: white;
-    background-image: url('Assets/card-background.png');
+    background-image: url('card-background.png');
     background-size: cover;
     padding: 15px;
     border-radius: 8px;
