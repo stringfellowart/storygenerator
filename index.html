@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Story Prompt Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Craft a Story</h2>
+    <div id="cardsContainer" class="cards-container"></div>
+    <div class="controls">
+        <button type="button" onclick="generateStandardPrompt()">Generate Prompt</button>
+    </div>
+    <div id="promptOutput"></div>
+    <div class="save-area">
+        <h3>Save Your Favorite Prompts</h3>
+        <textarea id="savedPrompts" rows="5" cols="50" placeholder="Paste or type prompts here..."></textarea>
+        <br>
+        <button type="button" onclick="exportToTxt()">Export to TXT</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

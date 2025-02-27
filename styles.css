@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(Assets/leaves-background.png);
+    background-position: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h2, h3 {
+    text-align: center;
+    color: #333;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.card {
+    background-color: white;
+    background-image: url('Assets/card-background.png');
+    background-size: cover;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    min-width: 150px;
+    text-align: center;
+}
+
+select, button {
+    margin: 5px 0;
+    padding: 8px;
+}
+
+.remove-btn {
+    font-size: 12px;
+    padding: 2px 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.plus-btn {
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.controls {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#promptOutput {
+    margin-top: 20px;
+    padding: 15px;
+    box-align: center;
+    background-color: whitesmoke;
+    background-image: url('Assets/card-background.png');
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 1.2em;
+}
+
+.save-area {
+    margin-top: 20px;
+    padding: 15px;
+    box-align: center;
+    background-color: whitesmoke;
+    border-radius: 8px;    
+    text-align: center;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 1.2em;
+}
+
+#savedPrompts {
+    width: 80%;
+    max-width: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: vertical;
+}
+
+.save-area button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.save-area button:hover {
+    background-color: #45a049;
+}
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
